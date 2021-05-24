@@ -22,10 +22,10 @@
           <a class="logo-link link" href="./index.html"><span class="logo-color">Web</span>Studio</a>
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link navigation-studio-link link" href="">Студия</a>
+              <a class="menu-link navigation-studio-link link" href="./index.html">Студия</a>
             </li>
-            <li class="menu-item">
-              <a class="menu-link navigation-portfolio-link link" href="./portfolio.html">Портфолио</a>
+          <li class="menu-item">
+              <a class="menu-link navigation-portfolio-link current link" href="">Портфолио</a>
             </li>
             <li class="menu-item">
               <a class="menu-link navigation-contacts-link link" href="">Контакты</a>
@@ -34,10 +34,18 @@
         </nav>
         <ul class="header-contacts list">
           <li class="header-contacts-link header-contacts-mail">
-            <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-link link" href="mailto:info@devstudio.com">
+              <svg class="mail-icon header-icon">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>info@devstudio.com
+            </a>
           </li>
           <li class="header-contacts-link">
-            <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contacts-link link" href="tel:+380961111111">
+              <svg class="phone-icon header-icon">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>+38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -188,8 +196,9 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <a class="link logo-footer" href="./index.html"><span class="logo-color">Web</span><span
-            class="logo-color-footer">Studio</span></a>
+        <div class="footer-contacts-container">
+          <a class="link logo-footer" href="./index.html"><span class="logo-color">Web</span><span
+              class="logo-color-footer">Studio</span></a>
           <address class="address">
             <ul class="list address-list">
               <li class="address-item">
@@ -204,6 +213,40 @@
               </li>
             </ul>
           </address>
+        </div>
+        <div class="social-list-container">
+          <h3 class="join">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="social-list list">
+            <li class="social-list-item">
+              <a href="#" class="social-list-item-link link">
+                <svg class="social-list-icon">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" class="social-list-item-link link">
+                <svg class="social-list-icon">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" class="social-list-item-link link">
+                <svg class="social-list-icon">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" class="social-list-item-link link">
+                <svg class="social-list-icon">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
