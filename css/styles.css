@@ -361,8 +361,8 @@ body {
   padding: 0 32px;
 }
 
-.team-social-links-item:not(:last-child) {
-  margin-right: 10px;
+.social-links-item:not(:last-child) {
+  padding-right: 10px;
 }
 
 .team-link {
@@ -386,6 +386,11 @@ body {
   height: 20px;
   width: 20px;
   fill: #afb1b8;
+}
+
+.team-link:hover .link-logo,
+.team-link:focus .link-logo {
+  fill: var(--white-color);
 }
 
 /* CLIENTS */
@@ -522,7 +527,8 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--second-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
 }
 
 .social-list-item-link:hover,
@@ -533,6 +539,9 @@ body {
 .social-list-icon {
   width: 20px;
   height: 20px;
+}
+.social-list-icon {
+  fill: var(--white-color);
 }
 
 /* PORTFOLIO */
